@@ -1,0 +1,28 @@
+#filter {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: end;
+    .filter-content {
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+        padding-right: 15px;
+        label {
+            padding: 10px 20px;
+            border-right: 1px solid #deefee;
+            background-color: #d3d4d5;
+            font-weight: 600;
+            border-color: #c6c7c8;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+        select {
+            padding: 9px 10px;
+            color: #6c757d;
+            outline: none;
+        }
+    }
+}

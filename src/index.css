@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1200px;
+}
+
+.rounded-30 {
+  border-radius: 1.875rem;
+}
+
+.rounded-6 {
+  border-radius: 0.375rem;
+}
+
+.btn-dark-green {
+  border: 1px solid #3B6800;
+  background-color: #3B6800;
+  color: #fff;
+}
+
+.btn-light-green {
+  background-color: rgba(33, 144, 0, 0.4588235294);
+  border: 1px solid rgba(33, 144, 0, 0.4588235294);
+  color: #000;
+}
+
+.bg-red {
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button {
+  padding: 5px 15px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.section-spacing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+}

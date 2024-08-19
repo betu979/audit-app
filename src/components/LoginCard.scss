@@ -1,0 +1,97 @@
+#login-card{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  #login-card .card{
+    display: grid;
+    place-items: center;
+  }
+  
+  #login-card .card .card-content {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  #login-card .card .card-content h1{
+    font-size: 1.75rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  #login-card .card .card-content .input-box{
+    width: 430px;
+    border-radius: 30px;
+    border: 1px solid #dee2e6;
+    padding: 7px 0px 7px 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  #login-card .card .card-content .input-box img.email-img{
+    height: 16px;
+  }
+  
+  #login-card .card .card-content .input-box img.lock-img{
+    height: 24px;
+  }
+  
+  #login-card .card .card-content .input-box input{
+    background: transparent;
+  }
+  
+  #login-card .card .card-content .input-box input:focus-visible{
+    outline: none;
+  }
+  
+  #login-card .card .card-content .input-box input::placeholder{
+    color: #6c757d;
+  }
+  
+  #login-card .card .card-content .checkbox-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  #login-card .card .card-content .checkbox-box div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #login-card .card .card-content .checkbox-box div input{
+    width: 1em;
+    height: 1em;
+  }
+  
+  #login-card .card .card-content .checkbox-box a {
+    text-decoration: none;
+    list-style: none;
+    color: #6c757d;
+  }
+  
+  #login-card .card .card-content button {
+    padding: 0.5rem 3rem;
+  }
+  
+  #login-card .card .card-content .login-icon {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+  }
+  
+  #login-card .card .card-content .login-icon img {
+    padding: 25px;
+  }
